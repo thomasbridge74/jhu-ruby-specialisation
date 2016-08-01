@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+body { 
+  font-family: Helvetica;
+}
+
+h1 {
+	font-size: 175%;
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+}
+
+.boxtitle {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 33px;	
+	padding-bottom: 10px;
+	padding-top: 5px;
+	font-size: 18px;
+	margin: 0px;
+	text-align: center;
+	width: 150px;
+	border: solid black 1px;
+}
+
+.menubox {
+	position: relative;
+	background-color: #eeeeee;
+  border: 1px black solid;
+  margin: 10px;
+}
+
+p {
+	height: 350px;
+	overflow: auto;
+	margin: 10px;
+	padding-top: 33px;
+}
+
+#t1 {
+	background-color: pink;
+	color: black;
+}
+
+#t2 { 
+	background-color: orange;
+	color: white;
+}
+
+#t3 {
+	background-color: yellow;
+	color: black;
+}
+
+@media (min-width: 992px) {   /* Desktop */
+	.col-lg-4 {
+    width: 33.33%;
+    float: left;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {   /* Tablet */
+	.col-md-6, .col-md-12 {
+		float: left;
+		position: relative;
+	}
+	.col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+  	width: 100%;
+  }
+}
