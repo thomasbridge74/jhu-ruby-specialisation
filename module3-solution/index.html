@@ -5,24 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Boostrap Starter Page</title>
+    <title>Food, LLC</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
-
-  <h1>Hello Coursera!</h1>
-
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+  
+  <header>
+  	<nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          
+          <div class="navbar-brand">
+            <a href="index.html">Food, LLC</a>
+          </div>
+          
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+          			data-target="#collapsable-nav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>          	
+          </button>
+        </div>  
+          
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+        	<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+        		<li><a href="#">Chicken
+        			</a></li>
+        		<li><a href="#">Beef
+        			</a></li>
+        		<li><a href="#">Sushi
+        			</a></li>
+        	</ul> <!-- Nav-list -->
+        </div>		 
+      </div>
+    </nav>
+  </header>    
+  
+  <h1 class="text-center">Our Menu</h1>
+  
+  <div class="container">
+  	<div class="col-xs-12 big-section">
+  		<h2 class="text-center">Chicken</h2>
+  		<p>  
+     	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id dui quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam non ornare ex. Proin vitae vulputate risus, vitae sollicitudin ex. Fusce elementum massa id lorem efficitur, at dignissim turpis luctus. Nam sit amet sem vel est faucibus molestie vitae sed sem. Nullam laoreet ornare eleifend. Mauris neque justo, elementum vitae blandit id, tempor in sem. Nam ut mattis augue. Pellentesque sed rutrum dui, vitae ultricies nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi nec viverra ante. Nullam dignissim at eros vestibulum varius.
+     	</p>
+  		<p>
+     	Aenean mollis fringilla ex, ac ullamcorper libero convallis in. Fusce ut massa eros. Sed finibus sodales urna, consectetur ullamcorper urna venenatis eu. Duis hendrerit mollis erat, at vulputate turpis tincidunt nec. Vestibulum bibendum dui vel mauris congue sollicitudin. Curabitur diam turpis, sodales et porttitor et, vulputate sed sapien. Nam nunc odio, pulvinar vitae sodales ut, semper vitae ligula. Nam ultricies eros vel nisi faucibus elementum. Maecenas congue iaculis risus in pellentesque. Nullam sed erat non orci condimentum fringilla. Nunc pellentesque est vitae justo viverra, in convallis augue accumsan.	
+  	  </p>
+  	  <p>
+     	Nulla vestibulum purus id purus rutrum, eu auctor mi aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis scelerisque ac metus vel convallis. Integer mi massa, porta in elit eu, pharetra hendrerit leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec efficitur ultricies eros, vitae efficitur felis varius ut. Quisque vehicula convallis faucibus. Integer a nulla porta, pharetra lacus eget, posuere nulla. Etiam eu sem feugiat, cursus turpis quis, posuere augue. Maecenas ipsum augue, pulvinar a venenatis eget, suscipit at magna. Etiam bibendum dolor pulvinar, elementum diam vitae, facilisis neque. Vestibulum at congue metus, ut interdum ante. Maecenas blandit nisl nec nulla luctus, in ornare tellus blandit. Morbi pulvinar odio lacus, at lobortis metus placerat et. Quisque ac suscipit ligula. Pellentesque tristique quam vel tincidunt imperdiet.  	  	
+  	  </p>	
+  	</div>	
+  </div> 
+
 </body>
 </html>

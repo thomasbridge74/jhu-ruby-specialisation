@@ -1,0 +1,17 @@
+.big-section {
+	background-color: #efefef;
+	height: 1000px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+  background-color: yellow;
+}
+
+#nav-list {
+	background-color: yellow;
+}
+
+#nav-list a {
+  text-align: center;
+}
